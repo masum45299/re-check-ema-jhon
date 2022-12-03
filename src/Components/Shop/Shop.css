@@ -1,0 +1,10 @@
+.divided{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.product-part{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    grid-gap:45px;
+    margin: 104px 30px 0px 30px;
+}
